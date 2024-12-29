@@ -5,4 +5,9 @@
 ## Command for not creating *`__pycache__`* file 
 
 ```bash 
-$env:PYTHONDONTWRITEBYTECODE
+$env:PYTHONDONTWRITEBYTECODE 
+
+### MySQL connection
+
+```bash
+pip install mysql-connector-python
