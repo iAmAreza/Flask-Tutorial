@@ -6,12 +6,6 @@
 
 ```bash 
 $env:PYTHONDONTWRITEBYTECODE 
-
-### MySQL connection
-
-```bash
-pip install mysql-connector-python 
-
 ``` 
 ### MySQL connection
 
@@ -20,6 +14,5 @@ pip install mysql-connector-python
 
 In models.py create a constructor and add 
 
-self.con = mysql.connector.connect(host,user,password,database) 
-
+self.con = mysql.connector.connect(host,user,password,database)
 ```
